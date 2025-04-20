@@ -1,6 +1,88 @@
-ul1 {
-    font-size: 50px;
-}
-ul2{
-    font-size: 30px;
-} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    /* font-family: 'Anton', sans-serif; */
+    overflow: hidden;
+
+  }
+  
+  /* Blurred background */
+  .background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('sohan.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+  /* Content stays clear */
+  .content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-top: 30%;
+  }
+  
+  /* Overlay Text */
+  .overlay-text h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 2.5rem;
+  }
+  
+  /* Highlighted part of text */
+  .highlight {
+    color:m black;
+    font-weight: bold;
+  }
+  
+  /* Social Links on the right */
+  .social-links {
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    text-align: right;
+    color: black;
+    font-size: 1rem;
+
+
+  }
+  
+  .social-links p {
+    margin-top: 50x;
+    margin-bottom: 50px;
+    margin-right: 50px
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 5px;
+    background-color: #399aba;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: black;
+  }
+
