@@ -4,7 +4,7 @@
     box-sizing: border-box;
     
   }
-  
+
   body, html {
     height: 100%;
     /* font-family: 'Anton', sans-serif; */
@@ -60,10 +60,8 @@
     text-align: right;
     color: black;
     font-size: 1rem;
-
-
   }
-  
+
   .social-links p {
     margin-top: 50x;
     margin-bottom: 50px;
@@ -87,3 +85,25 @@
     background-color: black;
   }
 
+
+@media  (max-width: 500px) {
+  .overlay-text h1 {
+    position: relative;
+    top: 250px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 2.5rem;
+  }
+
+@media  (max-width: 500px) {
+    .social-links {
+margin-bottom: 100px;
+    }
+    
+  
+  }
+  
+
+  
